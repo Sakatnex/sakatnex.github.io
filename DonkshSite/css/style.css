@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+body {
+	background: black;
+	color: white;
+}
+header {
+	display: flex;
+	justify-content: center;
+}
+.Logo, .Top_menu {
+	vertical-align: middle;
+	display: inline-block;
+}
+.Top_menu li{
+	display: inline-block;
+	vertical-align: middle;
+}
+.Top_menu a{
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	margin-right: 30px;
+}
+.Top_menu a:hover {
+	color: #3d6edb;
+}
+.Logo h1 {
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 30px;
+	color: white;
+	margin-right: 30px;
+}
+.text h1, .text a, .text p {
+	font-family: arial;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+}
+.DonkshCenter, .VybiloidCenter, .SSSAMembers, .DungeonCenter, .KakashkaSkin {
+	display: block;
+	margin: 0 auto;
+}
